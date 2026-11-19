@@ -1,0 +1,23 @@
+The TriDie - Mid20 Edition
+The TriDie(d20) Edition (hereafter TriDie) is a randomizer that simultaneously generates three results with different probability distributions. Roll three d20s. That roll gives you three selectable results: the middle result (Mid20), the highest result (Hi20), and the lowest result (Lo20). The applicable rule tells you which answer to use:
+Mid20: the middle result, used for most rolls.
+Hi20: the highest result, used when the applicable rule favors a higher result.
+Lo20: the lowest result, used when the applicable rule favors a lower result.
+Mid20 is the default. Hi20 and Lo20 are invoked by the rules that use the TriDie.
+
+TriDie changes which value is selected, not what outcomes are possible. Mid20, Hi20, and Lo20 each retain the complete 1–20 range. What changes is the probability distribution of the selected value.
+
+TriDie preserves the full d20 1–20 value range while providing three non-linear probability distributions from a single roll. Unlike a standard d20, where each value has an equal 5% probability, each TriDie selector changes the likelihood of values within that range.
+Mid20 produces a symmetrical, center-weighted distribution in which values nearer the extremes occur less frequently, forming a parabolic (“faux-bell-curve”) pattern.
+It is sometimes informally described as a bell curve, but its probability mass function is quadratic rather than normal/Gaussian.
+Hi20 strongly weights the selected value toward the upper end of the range.
+Lo20 strongly weights the selected value toward the lower end.
+Mid20 therefore provides some of the center-weighting sought in additive multi-die systems such as 3d6 or 2d10 while retaining the familiar full 1–20 value range of a d20 system. Hi20 and Lo20 bias the probability distribution, intentionally pushing selected values towards the extremes more strongly than D&D-style Advantage and Disadvantage.
+
+
+Let’s look at some Comparative Probabilities, first as Discrete Values and then as Success vs. Target Number (TN)
+
+TriDie vs. 3d6 Additive
+
+
+TriDie vs. Advantage/Disadvantage
